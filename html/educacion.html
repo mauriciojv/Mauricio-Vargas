@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+    <meta name="author" content="Mauricio Varges">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title> Eduacion | Mauricio </title>
+  </head>
+  <body class="educacionbody">
+  <header>
+    <svg>
+    <image xlink:href="img/IMG_0007.svg" width="300px" height="200px"> </image>
+    </svg>
+    <div class="nombre">
+      <p ><h1> Mauricio Vargas </h1></p>
+      <P> <h2> Desarrollador Web </h2></p>
+    </div>
+    <nav id="menu">
+      <ul>
+        <li class="active"> <a href="index.html"> Inicio </a></li>
+        <li> <a href="educacion.html"> Educacion  </a></li>
+        <li> <a href="experiencia.html"> Experiencia </a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="educaciontitle">
+    <h1> Educacion </h1>
+  </div>
+  <div class="educacion">
+    <h3> 	Licenciatura en Economía (En curso) </h3>
+    <ul>
+      <li><h4> Universidad de la Republica </h4></li>
+      <li><em> Montevideo, Uruguay</em></li>
+    </ul>
+    <h3>  Bachillerato, Diversificación Físico-Matemática </h3>
+    <ul>
+      <li><h4> Colegio La Salle Mérida </h4></li>
+      <li><em> Mérida, Venezuela </em></li>
+    </ul>
+  </div>
+  <div class="table">
+    <table class="tabla">
+      <thead>
+        <tr>
+          <th> Año</th>
+          <th> Institucion</th>
+          <th> Curso </th>
+          <th> Lugar</th>
+          <th> ¿Culminó? </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2020 </td>
+          <td> Universidad de la Republica </td>
+          <td> Licenciatura en Economía </td>
+          <td> Montevideo, Uruguay </td>
+          <td> En curso </td>
+        </tr>
+        <tr>
+          <td> 2016 </td>
+          <td> Universidad de Los Andes </td>
+          <td> Ciencias Politicas </td>
+          <td> Merida, Venezuela</td>
+          <td> No </td>
+        </tr>
+    </table>
+  </div>
+  <div class="agregareducacion">
+    <form autocomplete="on" name="agregar" action="educacion.html" method="post">
+
+      <label for="año"> Selecciona el año </label>
+      <select title="año" name="año" disabled"año" placeholder"Seleccionar año" required>
+        <option> 2019 </option>
+        <option> 2018 </option>
+        <option> 2016  </option>
+        <option> 2017 </option>
+        <option> 2016 </option>
+      </select><br>
+
+      <label for="Institucion"> Agregar Institucion </label></br>
+        <input type="text" name="Institucion"/><br>
+
+      <label for="lugar"> Indica el lugar  </label></br>
+        <input type="text" name="lugar"/>
+
+     </form>
+   </div>
+    <footer>
+      <p> Realizado por Mauricio Vargas </p>
+    </footer>
+   </body>
+  </html>
